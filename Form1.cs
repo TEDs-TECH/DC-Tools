@@ -1,3 +1,4 @@
+using System.Diagnostics; // Added namespace for Process.Start
 using System.Drawing.Drawing2D;
 
 namespace DC_Tools
@@ -12,19 +13,20 @@ namespace DC_Tools
 
         }
 
+
         private void ApplyButtonStyles()
         {
             // Apply styles to buttons
             SetButtonHoverEffect(btnPDF_TOOLS, Color.MediumVioletRed);
             SetButtonHoverEffect(btnFILES_TOOLS, Color.DarkCyan);
             SetButtonHoverEffect(btnExit, Color.Red);
-            SetButtonHoverEffect(btnAbout, Color.RoyalBlue);
+            SetButtonHoverEffect(btn_Others, Color.RoyalBlue);
 
             // Apply rounded edges
             ApplyRoundedEdges(btnPDF_TOOLS);
             ApplyRoundedEdges(btnFILES_TOOLS);
             ApplyRoundedEdges(btnExit);
-            ApplyRoundedEdges(btnAbout);
+            ApplyRoundedEdges(btn_Others);
         }
 
         private void ApplyRoundedEdges(Button button)
@@ -38,8 +40,8 @@ namespace DC_Tools
             path.CloseFigure();
 
             button.Region = new Region(path);
-
         }
+
         protected override void OnPaint(PaintEventArgs e)
         {
             int radius = 30;
@@ -59,6 +61,7 @@ namespace DC_Tools
 
             base.OnPaint(e);
         }
+
         private void SetButtonHoverEffect(Button button, Color hoverColor)
         {
             button.MouseHover += (sender, e) =>
@@ -108,20 +111,43 @@ namespace DC_Tools
         private void btnAbout_Click_1(object sender, EventArgs e)
         {
             string message = "My DC Tools\n" +
-                 "Version: 1.0.13\n" +
-                 "Created by: TED NAVALTA\n" +
-                 "WhatsApp: +63 945 804 9025\n" +
-                 "© 2025 Ted's Tech";
+                             "Version: 1.0.13\n" +
+                             "Created by: TED NAVALTA\n" +
+                             "WhatsApp: +63 945 804 9025\n" +
+                             "YT Channel: https://www.youtube.com/@tedstech2718\n" +
+
+                             "© 2025 Ted's Tech";
 
             MessageBox.Show(message, "About My Application", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "https://www.youtube.com/@tedstech2718",
+                    UseShellExecute = true // Ensures the default browser is used
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Failed to open webpage: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-
         }
+        private void btn_Others_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FILE_MENU fileTools = new FILE_MENU();
+            fileTools.Show();
+        }
+
+
     }
-} 
-
-
+}

@@ -7,6 +7,8 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+    <PackageIcon></PackageIcon>
+    <ApplicationIcon>TED'sTECH 2025 Logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -16,6 +18,10 @@
 
   <ItemGroup>
     <EmbeddedResource Remove="ISO_QUERY.resx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="TED'sTECH 2025 Logo.ico" />
   </ItemGroup>
 
   <ItemGroup>

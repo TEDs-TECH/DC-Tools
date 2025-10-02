@@ -21,16 +21,12 @@ namespace DC_Tools
             SetButtonHoverEffect(btnExit, Color.Red);
             SetButtonHoverEffect(btnMainMenu, Color.DarkBlue);
             SetButtonHoverEffect(btnClear, Color.DarkSeaGreen);
-            SetButtonHoverEffect(btnOpenDestinationFolder, Color.DarkOrange);
 
             ApplyRoundedEdges(btnPaste);
             ApplyRoundedEdges(btnCopyFiles);
             ApplyRoundedEdges(btnMainMenu);
             ApplyRoundedEdges(btnClear);
-            ApplyRoundedEdges(btnOpenDestinationFolder);
             ApplyRoundedEdges(btnExit);
-
-
 
         }
         private void ApplyRoundedEdges(Button button)
@@ -192,6 +188,10 @@ namespace DC_Tools
                 MessageBox.Show("All files copied successfully", "Success",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+
+            {
+                Process.Start("explorer.exe", destinationPath);
+            }
         }
         private void btnClear_Click(object sender, EventArgs e)
         {
@@ -199,19 +199,6 @@ namespace DC_Tools
                 MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 dgvFileSystem.Rows.Clear();
-            }
-        }
-
-        private void btnOpenDestinationFolder_Click(object sender, EventArgs e)
-        {
-            if (!string.IsNullOrEmpty(destinationPath) && Directory.Exists(destinationPath))
-            {
-                Process.Start("explorer.exe", destinationPath);
-            }
-            else
-            {
-                MessageBox.Show("Destination folder not available", "Error",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -243,7 +230,6 @@ namespace DC_Tools
             mAINMENU.ShowDialog();
 
         }
-
 
     }
 }
