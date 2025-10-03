@@ -41,9 +41,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(21, 12);
+            pictureBox1.Location = new Point(24, 16);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(219, 80);
+            pictureBox1.Size = new Size(250, 107);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
@@ -51,9 +52,10 @@
             // 
             // btnMAKE_FOLDER
             // 
-            btnMAKE_FOLDER.Location = new Point(76, 225);
+            btnMAKE_FOLDER.Location = new Point(76, 303);
+            btnMAKE_FOLDER.Margin = new Padding(3, 4, 3, 4);
             btnMAKE_FOLDER.Name = "btnMAKE_FOLDER";
-            btnMAKE_FOLDER.Size = new Size(108, 33);
+            btnMAKE_FOLDER.Size = new Size(131, 44);
             btnMAKE_FOLDER.TabIndex = 7;
             btnMAKE_FOLDER.Text = "CREATE FOLDER";
             btnMAKE_FOLDER.UseVisualStyleBackColor = true;
@@ -61,9 +63,10 @@
             // 
             // btnFILES_TOOLS
             // 
-            btnFILES_TOOLS.Location = new Point(76, 147);
+            btnFILES_TOOLS.Location = new Point(76, 199);
+            btnFILES_TOOLS.Margin = new Padding(3, 4, 3, 4);
             btnFILES_TOOLS.Name = "btnFILES_TOOLS";
-            btnFILES_TOOLS.Size = new Size(108, 33);
+            btnFILES_TOOLS.Size = new Size(131, 44);
             btnFILES_TOOLS.TabIndex = 6;
             btnFILES_TOOLS.Text = "COPY FILES";
             btnFILES_TOOLS.UseVisualStyleBackColor = true;
@@ -71,9 +74,10 @@
             // 
             // btnExit1
             // 
-            btnExit1.Location = new Point(76, 279);
+            btnExit1.Location = new Point(76, 375);
+            btnExit1.Margin = new Padding(3, 4, 3, 4);
             btnExit1.Name = "btnExit1";
-            btnExit1.Size = new Size(108, 33);
+            btnExit1.Size = new Size(131, 44);
             btnExit1.TabIndex = 5;
             btnExit1.Text = "EXIT";
             btnExit1.UseVisualStyleBackColor = true;
@@ -81,9 +85,10 @@
             // 
             // btnMoveFiles
             // 
-            btnMoveFiles.Location = new Point(76, 186);
+            btnMoveFiles.Location = new Point(76, 251);
+            btnMoveFiles.Margin = new Padding(3, 4, 3, 4);
             btnMoveFiles.Name = "btnMoveFiles";
-            btnMoveFiles.Size = new Size(108, 33);
+            btnMoveFiles.Size = new Size(131, 44);
             btnMoveFiles.TabIndex = 10;
             btnMoveFiles.Text = "MOVE FILES";
             btnMoveFiles.UseVisualStyleBackColor = true;
@@ -91,9 +96,10 @@
             // 
             // btnMainMenu
             // 
-            btnMainMenu.Location = new Point(76, 104);
+            btnMainMenu.Location = new Point(76, 142);
+            btnMainMenu.Margin = new Padding(3, 4, 3, 4);
             btnMainMenu.Name = "btnMainMenu";
-            btnMainMenu.Size = new Size(108, 37);
+            btnMainMenu.Size = new Size(131, 49);
             btnMainMenu.TabIndex = 28;
             btnMainMenu.Text = "MAIN MENU";
             btnMainMenu.UseVisualStyleBackColor = true;
@@ -101,16 +107,17 @@
             // 
             // FILE_MENU
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
-            ClientSize = new Size(261, 340);
+            ClientSize = new Size(298, 453);
             Controls.Add(btnMainMenu);
             Controls.Add(btnMoveFiles);
             Controls.Add(pictureBox1);
             Controls.Add(btnMAKE_FOLDER);
             Controls.Add(btnFILES_TOOLS);
             Controls.Add(btnExit1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "FILE_MENU";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FILE_MENU";

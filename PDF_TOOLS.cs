@@ -34,15 +34,15 @@ namespace DC_Tools
             dgvPdfTools.Columns.Clear();
             dgvPdfTools.AllowUserToAddRows = false;
             dgvPdfTools.Columns.Add("FileName", "File Name");
-            dgvPdfTools.Columns.Add("Order", "Order"); 
+            dgvPdfTools.Columns.Add("Order", "Order");
             dgvPdfTools.Columns.Add("FullPath", "File Path");
-                        
+
             dgvPdfTools.Columns["FileName"].Width = 500;
             dgvPdfTools.Columns["Order"].Width = 50;
             dgvPdfTools.Columns["FullPath"].Width = 100;
-          
-           dgvPdfTools.Columns["Order"].ReadOnly = false;
-           dgvPdfTools.Columns["FullPath"].Visible = true;
+
+            dgvPdfTools.Columns["Order"].ReadOnly = false;
+            dgvPdfTools.Columns["FullPath"].Visible = true;
         }
 
         private void ApplyButtonStyles()
@@ -255,7 +255,7 @@ namespace DC_Tools
             }
         }
 
-       private void SplitPDF(string sourcePath, string outputPath)
+        private void SplitPDF(string sourcePath, string outputPath)
         {
             lastUsedFolder = outputPath;
             using (PdfReader reader = new PdfReader(sourcePath))
@@ -320,6 +320,45 @@ namespace DC_Tools
         private void PDF_TOOLS_MouseUp(object sender, MouseEventArgs e)
         {
             dragging = false;
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            {
+                try
+                {
+                    {
+                        string message = "My DC Tools\n" +
+                                         "Version: 1.0.13\n" +
+                                         "Created by: TED NAVALTA\n" +
+                                         "WhatsApp: +63 945 804 9025\n" +
+                                         "YT Channel: https://www.youtube.com/@tedstech2718\n" +
+                                         "My Portfolio: https://teds-tech.github.io/TED-NAVALTA/\n" +
+
+                                         "© 2025 Ted's Tech";
+
+                        MessageBox.Show(message, "About My Application", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
+                    // Fix for CS1912: Only one FileName property should be set per ProcessStartInfo.
+                    // To open multiple URLs, call Process.Start separately for each.
+
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = "https://www.youtube.com/@tedstech2718",
+                        UseShellExecute = true
+                    });
+                    Process.Start(new ProcessStartInfo
+                    {
+                        FileName = "https://teds-tech.github.io/TED-NAVALTA/",
+                        UseShellExecute = true
+                    });
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Failed to open webpage: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
         }
     }
 }

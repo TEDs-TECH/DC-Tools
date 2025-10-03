@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|c:\\users\\ted\\desktop\\my program\\repository\\dc-tools\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|c:\\users\\ted\\desktop\\my program\\repository\\dc-tools\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|c:\\users\\ted\\desktop\\my program\\repository\\dc-tools\\file_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|solutionrelative:file_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|c:\\users\\ted\\desktop\\my program\\repository\\dc-tools\\pdf_tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|solutionrelative:pdf_tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|c:\\users\\ted\\desktop\\my program\\repository\\dc-tools\\move_files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|solutionrelative:move_files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|c:\\users\\ted\\desktop\\my program\\repository\\dc-tools\\pdf_tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|solutionrelative:pdf_tools.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|c:\\users\\ted\\desktop\\my program\\repository\\dc-tools\\move_files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|solutionrelative:move_files.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|c:\\users\\ted\\desktop\\my program\\repository\\dc-tools\\file_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6F12F8D5-44A2-4614-AD8E-7508C8EED8AC}|DC Tools.csproj|solutionrelative:file_menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PDF_TOOLS.cs",
+              "DocumentMoniker": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\PDF_TOOLS.cs",
+              "RelativeDocumentMoniker": "PDF_TOOLS.cs",
+              "ToolTip": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\PDF_TOOLS.cs",
+              "RelativeToolTip": "PDF_TOOLS.cs",
+              "ViewState": "AgIAACQBAAAAAAAAAAAmwGgBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T18:02:29.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PDF_TOOLS.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\PDF_TOOLS.cs",
+              "RelativeDocumentMoniker": "PDF_TOOLS.cs",
+              "ToolTip": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\PDF_TOOLS.cs [Design]",
+              "RelativeToolTip": "PDF_TOOLS.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T18:02:27.472Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MOVE_FILES.cs",
+              "DocumentMoniker": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\MOVE_FILES.cs",
+              "RelativeDocumentMoniker": "MOVE_FILES.cs",
+              "ToolTip": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\MOVE_FILES.cs",
+              "RelativeToolTip": "MOVE_FILES.cs",
+              "ViewState": "AgIAAP0AAAAAAAAAAAAIwBcBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:50:07.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAUwH4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:44:08.099Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FILE_MENU.cs",
+              "DocumentMoniker": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\FILE_MENU.cs",
+              "RelativeDocumentMoniker": "FILE_MENU.cs",
+              "ToolTip": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\FILE_MENU.cs",
+              "RelativeToolTip": "FILE_MENU.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAUwGQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:40:28.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FILE_MENU.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\FILE_MENU.cs",
+              "RelativeDocumentMoniker": "FILE_MENU.cs",
+              "ToolTip": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\FILE_MENU.cs [Design]",
+              "RelativeToolTip": "FILE_MENU.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T17:40:25.669Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T12:19:51.398Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MOVE_FILES.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\MOVE_FILES.cs",
+              "RelativeDocumentMoniker": "MOVE_FILES.cs",
+              "ToolTip": "C:\\Users\\TED\\Desktop\\MY PROGRAM\\REPOSITORY\\DC-Tools\\MOVE_FILES.cs [Design]",
+              "RelativeToolTip": "MOVE_FILES.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-03T12:17:48.976Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

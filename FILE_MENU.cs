@@ -106,16 +106,25 @@ namespace DC_Tools
                                      "Created by: TED NAVALTA\n" +
                                      "WhatsApp: +63 945 804 9025\n" +
                                      "YT Channel: https://www.youtube.com/@tedstech2718\n" +
+                                     "My Portfolio: https://teds-tech.github.io/TED-NAVALTA/\n" +
 
                                      "© 2025 Ted's Tech";
 
                     MessageBox.Show(message, "About My Application", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
 
+                // Fix for CS1912: Only one FileName property should be set per ProcessStartInfo.
+                // To open multiple URLs, call Process.Start separately for each.
+
                 Process.Start(new ProcessStartInfo
                 {
                     FileName = "https://www.youtube.com/@tedstech2718",
-                    UseShellExecute = true // Ensures the default browser is used
+                    UseShellExecute = true
+                });
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "https://teds-tech.github.io/TED-NAVALTA/",
+                    UseShellExecute = true
                 });
             }
             catch (Exception ex)
@@ -124,18 +133,6 @@ namespace DC_Tools
             }
         }
 
-        private void btnAbout1_Click(object sender, EventArgs e)
-        {
-            string message = "My DC Tools\n" +
-                             "Version: 1.0.13\n" +
-                             "Created by: TED NAVALTA\n" +
-                             "WhatsApp: +63 945 804 9025\n" +
-                             "YT Channel: https://www.youtube.com/@tedstech2718\n" +
-
-                             "© 2025 Ted's Tech";
-
-            MessageBox.Show(message, "About My Application", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
 
         private void btnMAKE_FOLDER_Click(object sender, EventArgs e)
         {
@@ -157,8 +154,8 @@ namespace DC_Tools
 
         private void btnMoveFiles_Click(object sender, EventArgs e)
         {
-            string correctPassword = "tedstech@admin"; // Replace with your actual password
-            string userInput = Interaction.InputBox("Enter password to proceed:", "Password Required", "", -1, -1);
+            string correctPassword = "Move"; // Replace with your actual password
+            string userInput = Interaction.InputBox("Are you Sure you want To Process Move Files? Type Move", "Password Required", "", -1, -1);
 
             if (userInput == correctPassword)
             {

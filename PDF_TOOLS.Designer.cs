@@ -29,11 +29,11 @@
             btnSelectMergeFiles = new Button();
             TO_MAIN_MENU = new Button();
             dgvPdfTools = new DataGridView();
-            PDFprogressBar = new ProgressBar();
-            btnMergeOrdered = new Button();
             FileName = new DataGridViewTextBoxColumn();
             Order = new DataGridViewTextBoxColumn();
             FullPath = new DataGridViewTextBoxColumn();
+            PDFprogressBar = new ProgressBar();
+            btnMergeOrdered = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)dgvPdfTools).BeginInit();
             SuspendLayout();
@@ -47,6 +47,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 15;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // EXIT
             // 
@@ -129,6 +130,25 @@
             dgvPdfTools.Size = new Size(644, 393);
             dgvPdfTools.TabIndex = 23;
             // 
+            // FileName
+            // 
+            FileName.HeaderText = "FileName";
+            FileName.Name = "FileName";
+            FileName.Width = 500;
+            // 
+            // Order
+            // 
+            Order.HeaderText = "Order";
+            Order.Name = "Order";
+            Order.Width = 101;
+            // 
+            // FullPath
+            // 
+            FullPath.HeaderText = "FullPath";
+            FullPath.Name = "FullPath";
+            FullPath.Visible = false;
+            FullPath.Width = 101;
+            // 
             // PDFprogressBar
             // 
             PDFprogressBar.Location = new Point(228, 415);
@@ -145,23 +165,6 @@
             btnMergeOrdered.Text = "MERGE FILES";
             btnMergeOrdered.UseVisualStyleBackColor = true;
             btnMergeOrdered.Click += btnMergeOrdered_Click;
-            // 
-            // FileName
-            // 
-            FileName.HeaderText = "FileName";
-            FileName.Name = "FileName";
-            FileName.Width = 500;
-            // 
-            // Order
-            // 
-            Order.HeaderText = "Order";
-            Order.Name = "Order";
-            // 
-            // FullPath
-            // 
-            FullPath.HeaderText = "FullPath";
-            FullPath.Name = "FullPath";
-            FullPath.Visible = false;
             // 
             // PDF_TOOLS
             // 

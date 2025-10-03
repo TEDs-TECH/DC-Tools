@@ -97,7 +97,7 @@ namespace DC_Tools
         private void btnFILES_TOOLS_Click_1(object sender, EventArgs e)
         {
             this.Hide();
-            FILE_TOOLS fileTools = new FILE_TOOLS();
+            FILE_MENU fileTools = new FILE_MENU();
             fileTools.Show();
         }
 
@@ -126,10 +126,31 @@ namespace DC_Tools
         {
             try
             {
+                {
+                    string message = "My DC Tools\n" +
+                                     "Version: 1.0.13\n" +
+                                     "Created by: TED NAVALTA\n" +
+                                     "WhatsApp: +63 945 804 9025\n" +
+                                     "YT Channel: https://www.youtube.com/@tedstech2718\n" +
+                                     "My Portfolio: https://teds-tech.github.io/TED-NAVALTA/\n" +
+
+                                     "© 2025 Ted's Tech";
+
+                    MessageBox.Show(message, "About My Application", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+
+                // Fix for CS1912: Only one FileName property should be set per ProcessStartInfo.
+                // To open multiple URLs, call Process.Start separately for each.
+
                 Process.Start(new ProcessStartInfo
                 {
                     FileName = "https://www.youtube.com/@tedstech2718",
-                    UseShellExecute = true // Ensures the default browser is used
+                    UseShellExecute = true
+                });
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = "https://teds-tech.github.io/TED-NAVALTA/",
+                    UseShellExecute = true
                 });
             }
             catch (Exception ex)
@@ -141,12 +162,7 @@ namespace DC_Tools
         {
             Application.Exit();
         }
-        private void btn_Others_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            FILE_MENU fileTools = new FILE_MENU();
-            fileTools.Show();
-        }
+
 
 
     }

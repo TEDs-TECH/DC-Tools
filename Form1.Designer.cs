@@ -33,13 +33,12 @@
             btnFILES_TOOLS = new Button();
             btnPDF_TOOLS = new Button();
             pictureBox1 = new PictureBox();
-            btn_Others = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // btnExit
             // 
-            btnExit.Location = new Point(76, 272);
+            btnExit.Location = new Point(76, 230);
             btnExit.Name = "btnExit";
             btnExit.Size = new Size(99, 33);
             btnExit.TabIndex = 0;
@@ -78,16 +77,6 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // btn_Others
-            // 
-            btn_Others.Location = new Point(76, 195);
-            btn_Others.Name = "btn_Others";
-            btn_Others.Size = new Size(99, 33);
-            btn_Others.TabIndex = 7;
-            btn_Others.Text = "OTHERS";
-            btn_Others.UseVisualStyleBackColor = true;
-            btn_Others.Click += btn_Others_Click;
-            // 
             // MAINMENU
             // 
             AutoScaleDimensions = new SizeF(6F, 13F);
@@ -97,7 +86,6 @@
             ClientSize = new Size(262, 364);
             Controls.Add(btnPDF_TOOLS);
             Controls.Add(btnFILES_TOOLS);
-            Controls.Add(btn_Others);
             Controls.Add(pictureBox1);
             Controls.Add(btnExit);
             Font = new Font("Segoe UI", 8.25F);
@@ -114,6 +102,5 @@
         private Button btnFILES_TOOLS;
         private Button btnPDF_TOOLS;
         private PictureBox pictureBox1;
-        private Button btn_Others;
     }
 }
