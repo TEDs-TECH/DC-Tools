@@ -1,2 +1,0 @@
-C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\win-x86\app.publish\DC Tools.pdb
-C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\win-x86\app.publish\DC Tools.exe

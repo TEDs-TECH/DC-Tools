@@ -76,8 +76,7 @@
             dgvFileSystem.DefaultCellStyle = dataGridViewCellStyle2;
             dgvFileSystem.EnableHeadersVisualStyles = false;
             dgvFileSystem.ImeMode = ImeMode.Disable;
-            dgvFileSystem.Location = new Point(262, 13);
-            dgvFileSystem.Margin = new Padding(3, 4, 3, 4);
+            dgvFileSystem.Location = new Point(229, 10);
             dgvFileSystem.Name = "dgvFileSystem";
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
             dataGridViewCellStyle3.BackColor = SystemColors.Control;
@@ -88,7 +87,7 @@
             dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
             dgvFileSystem.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             dgvFileSystem.ScrollBars = ScrollBars.Vertical;
-            dgvFileSystem.Size = new Size(736, 529);
+            dgvFileSystem.Size = new Size(644, 397);
             dgvFileSystem.TabIndex = 33;
             // 
             // OriginalFile
@@ -114,10 +113,9 @@
             // 
             // btnOpenDestinationFolder
             // 
-            btnOpenDestinationFolder.Location = new Point(69, 324);
-            btnOpenDestinationFolder.Margin = new Padding(3, 4, 3, 4);
+            btnOpenDestinationFolder.Location = new Point(60, 243);
             btnOpenDestinationFolder.Name = "btnOpenDestinationFolder";
-            btnOpenDestinationFolder.Size = new Size(118, 49);
+            btnOpenDestinationFolder.Size = new Size(103, 37);
             btnOpenDestinationFolder.TabIndex = 32;
             btnOpenDestinationFolder.Text = "OPEN FOLDER";
             btnOpenDestinationFolder.UseVisualStyleBackColor = true;
@@ -126,10 +124,9 @@
             // pictureBox2
             // 
             pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(14, 16);
-            pictureBox2.Margin = new Padding(3, 4, 3, 4);
+            pictureBox2.Location = new Point(12, 12);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(240, 107);
+            pictureBox2.Size = new Size(210, 80);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 31;
             pictureBox2.TabStop = false;
@@ -139,10 +136,9 @@
             // 
             btnExit.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             btnExit.BackColor = Color.WhiteSmoke;
-            btnExit.Location = new Point(69, 500);
-            btnExit.Margin = new Padding(3, 4, 3, 4);
+            btnExit.Location = new Point(60, 375);
             btnExit.Name = "btnExit";
-            btnExit.Size = new Size(118, 49);
+            btnExit.Size = new Size(103, 37);
             btnExit.TabIndex = 30;
             btnExit.Text = "EXIT";
             btnExit.UseVisualStyleBackColor = false;
@@ -150,10 +146,9 @@
             // 
             // btnMoveFiles
             // 
-            btnMoveFiles.Location = new Point(69, 267);
-            btnMoveFiles.Margin = new Padding(3, 4, 3, 4);
+            btnMoveFiles.Location = new Point(60, 200);
             btnMoveFiles.Name = "btnMoveFiles";
-            btnMoveFiles.Size = new Size(118, 49);
+            btnMoveFiles.Size = new Size(103, 37);
             btnMoveFiles.TabIndex = 29;
             btnMoveFiles.Text = "MOVE FILES";
             btnMoveFiles.UseVisualStyleBackColor = true;
@@ -161,10 +156,9 @@
             // 
             // btnPaste
             // 
-            btnPaste.Location = new Point(69, 209);
-            btnPaste.Margin = new Padding(3, 4, 3, 4);
+            btnPaste.Location = new Point(60, 157);
             btnPaste.Name = "btnPaste";
-            btnPaste.Size = new Size(118, 49);
+            btnPaste.Size = new Size(103, 37);
             btnPaste.TabIndex = 28;
             btnPaste.Text = "PASTE";
             btnPaste.UseVisualStyleBackColor = true;
@@ -172,10 +166,9 @@
             // 
             // btnMainMenu
             // 
-            btnMainMenu.Location = new Point(69, 152);
-            btnMainMenu.Margin = new Padding(3, 4, 3, 4);
+            btnMainMenu.Location = new Point(60, 114);
             btnMainMenu.Name = "btnMainMenu";
-            btnMainMenu.Size = new Size(118, 49);
+            btnMainMenu.Size = new Size(103, 37);
             btnMainMenu.TabIndex = 27;
             btnMainMenu.Text = "MAIN MENU";
             btnMainMenu.UseVisualStyleBackColor = true;
@@ -183,28 +176,25 @@
             // 
             // progressBar1
             // 
-            progressBar1.Location = new Point(314, 556);
-            progressBar1.Margin = new Padding(3, 4, 3, 4);
+            progressBar1.Location = new Point(275, 417);
             progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(683, 31);
+            progressBar1.Size = new Size(598, 23);
             progressBar1.TabIndex = 37;
             // 
             // txtExtension
             // 
-            txtExtension.Location = new Point(262, 560);
-            txtExtension.Margin = new Padding(3, 4, 3, 4);
+            txtExtension.Location = new Point(229, 420);
             txtExtension.Name = "txtExtension";
-            txtExtension.Size = new Size(46, 27);
+            txtExtension.Size = new Size(41, 23);
             txtExtension.TabIndex = 35;
             txtExtension.Text = "PDF";
             txtExtension.TextAlign = HorizontalAlignment.Center;
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(69, 381);
-            btnClear.Margin = new Padding(3, 4, 3, 4);
+            btnClear.Location = new Point(60, 286);
             btnClear.Name = "btnClear";
-            btnClear.Size = new Size(118, 49);
+            btnClear.Size = new Size(103, 37);
             btnClear.TabIndex = 34;
             btnClear.Text = "CLEAR";
             btnClear.UseVisualStyleBackColor = true;
@@ -212,9 +202,10 @@
             // 
             // MOVE_FILES
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1010, 600);
+            BackColor = Color.White;
+            ClientSize = new Size(884, 450);
             Controls.Add(dgvFileSystem);
             Controls.Add(btnOpenDestinationFolder);
             Controls.Add(pictureBox2);
@@ -225,7 +216,6 @@
             Controls.Add(progressBar1);
             Controls.Add(txtExtension);
             Controls.Add(btnClear);
-            Margin = new Padding(3, 4, 3, 4);
             Name = "MOVE_FILES";
             Text = "MOVE FILES";
             ((System.ComponentModel.ISupportInitialize)dgvFileSystem).EndInit();

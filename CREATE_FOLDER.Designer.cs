@@ -31,9 +31,13 @@
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CREATE_FOLDER));
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CREATE_FOLDER));
             dgvCreateFolder = new DataGridView();
+            OriginalFile = new DataGridViewTextBoxColumn();
+            Status = new DataGridViewTextBoxColumn();
+            FolderName = new DataGridViewTextBoxColumn();
+            FolderLink = new DataGridViewTextBoxColumn();
             btnOpenDestinationFolder = new Button();
             pictureBox2 = new PictureBox();
             btnExit = new Button();
@@ -41,10 +45,6 @@
             btnPaste = new Button();
             btnMainMenu = new Button();
             btnClear = new Button();
-            OriginalFile = new DataGridViewTextBoxColumn();
-            Status = new DataGridViewTextBoxColumn();
-            FolderName = new DataGridViewTextBoxColumn();
-            FolderLink = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dgvCreateFolder).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -90,6 +90,35 @@
             dgvCreateFolder.Size = new Size(644, 426);
             dgvCreateFolder.TabIndex = 33;
             // 
+            // OriginalFile
+            // 
+            OriginalFile.HeaderText = "FOLDER NAME";
+            OriginalFile.Name = "OriginalFile";
+            OriginalFile.Resizable = DataGridViewTriState.False;
+            OriginalFile.Width = 200;
+            // 
+            // Status
+            // 
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            Status.DefaultCellStyle = dataGridViewCellStyle2;
+            Status.HeaderText = "STATUS";
+            Status.MaxInputLength = 10;
+            Status.Name = "Status";
+            Status.Resizable = DataGridViewTriState.False;
+            Status.SortMode = DataGridViewColumnSortMode.Programmatic;
+            // 
+            // FolderName
+            // 
+            FolderName.HeaderText = "FOLDER NAME";
+            FolderName.Name = "FolderName";
+            FolderName.Visible = false;
+            // 
+            // FolderLink
+            // 
+            FolderLink.HeaderText = "FOLDER PATH";
+            FolderLink.Name = "FolderLink";
+            FolderLink.Width = 300;
+            // 
             // btnOpenDestinationFolder
             // 
             btnOpenDestinationFolder.Location = new Point(60, 243);
@@ -109,6 +138,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 31;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // btnExit
             // 
@@ -161,35 +191,6 @@
             btnClear.Text = "CLEAR";
             btnClear.UseVisualStyleBackColor = true;
             btnClear.Click += btnClear_Click;
-            // 
-            // OriginalFile
-            // 
-            OriginalFile.HeaderText = "FOLDER NAME";
-            OriginalFile.Name = "OriginalFile";
-            OriginalFile.Resizable = DataGridViewTriState.False;
-            OriginalFile.Width = 200;
-            // 
-            // Status
-            // 
-            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
-            Status.DefaultCellStyle = dataGridViewCellStyle2;
-            Status.HeaderText = "STATUS";
-            Status.MaxInputLength = 10;
-            Status.Name = "Status";
-            Status.Resizable = DataGridViewTriState.False;
-            Status.SortMode = DataGridViewColumnSortMode.Programmatic;
-            // 
-            // FolderName
-            // 
-            FolderName.HeaderText = "FOLDER NAME";
-            FolderName.Name = "FolderName";
-            FolderName.Visible = false;
-            // 
-            // FolderLink
-            // 
-            FolderLink.HeaderText = "FOLDER PATH";
-            FolderLink.Name = "FolderLink";
-            FolderLink.Width = 300;
             // 
             // CREATE_FOLDER
             // 
