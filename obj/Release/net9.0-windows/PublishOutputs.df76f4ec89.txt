@@ -1,0 +1,11 @@
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\DC Tools.exe
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\DC Tools.dll
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\DC Tools.deps.json
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\DC Tools.runtimeconfig.json
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\DC Tools.pdb
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\BouncyCastle.Cryptography.dll
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\itextsharp.dll
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\System.ServiceProcess.ServiceController.dll
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\Topshelf.dll
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\TopShelf.ServiceInstaller.dll
+C:\Users\605917\Documents\GitHub\DC-Tools\bin\Release\net9.0-windows\app.publish\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll

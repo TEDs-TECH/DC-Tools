@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DC Tools")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71f4e7d2c5aaa01cc54a0274cab296f4e872471c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c238bb91ad0af5ceb2292d3b1ffaf06c6e96b625")]
 [assembly: System.Reflection.AssemblyProductAttribute("DC Tools")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DC Tools")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -20,13 +20,13 @@ namespace DC_Tools
             SetButtonHoverEffect(btnPDF_TOOLS, Color.MediumVioletRed);
             SetButtonHoverEffect(btnFILES_TOOLS, Color.DarkCyan);
             SetButtonHoverEffect(btnExit, Color.Red);
-            SetButtonHoverEffect(btn_Others, Color.RoyalBlue);
+
 
             // Apply rounded edges
             ApplyRoundedEdges(btnPDF_TOOLS);
             ApplyRoundedEdges(btnFILES_TOOLS);
             ApplyRoundedEdges(btnExit);
-            ApplyRoundedEdges(btn_Others);
+
         }
 
         private void ApplyRoundedEdges(Button button)

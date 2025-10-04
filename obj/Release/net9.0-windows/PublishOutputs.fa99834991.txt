@@ -1,0 +1,11 @@
+C:\Users\605917\Documents\Publish\DC Tools.exe
+C:\Users\605917\Documents\Publish\DC Tools.dll
+C:\Users\605917\Documents\Publish\DC Tools.deps.json
+C:\Users\605917\Documents\Publish\DC Tools.runtimeconfig.json
+C:\Users\605917\Documents\Publish\DC Tools.pdb
+C:\Users\605917\Documents\Publish\BouncyCastle.Cryptography.dll
+C:\Users\605917\Documents\Publish\itextsharp.dll
+C:\Users\605917\Documents\Publish\System.ServiceProcess.ServiceController.dll
+C:\Users\605917\Documents\Publish\Topshelf.dll
+C:\Users\605917\Documents\Publish\TopShelf.ServiceInstaller.dll
+C:\Users\605917\Documents\Publish\runtimes\win\lib\netstandard2.0\System.ServiceProcess.ServiceController.dll
