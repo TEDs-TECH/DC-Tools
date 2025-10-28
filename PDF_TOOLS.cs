@@ -34,15 +34,16 @@ namespace DC_Tools
             dgvPdfTools.Columns.Clear();
             dgvPdfTools.AllowUserToAddRows = false;
             dgvPdfTools.Columns.Add("FileName", "File Name");
-            dgvPdfTools.Columns.Add("Order", "Order");
             dgvPdfTools.Columns.Add("FullPath", "File Path");
+            dgvPdfTools.Columns.Add("Order", "Order");
 
-            dgvPdfTools.Columns["FileName"].Width = 500;
-            dgvPdfTools.Columns["Order"].Width = 50;
+            dgvPdfTools.Columns["FileName"].Width = 550;
             dgvPdfTools.Columns["FullPath"].Width = 100;
+            dgvPdfTools.Columns["Order"].Width = 50;
+         
 
             dgvPdfTools.Columns["Order"].ReadOnly = false;
-            dgvPdfTools.Columns["FullPath"].Visible = true;
+            dgvPdfTools.Columns["FullPath"].Visible = false;
         }
 
         private void ApplyButtonStyles()

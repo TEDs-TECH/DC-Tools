@@ -29,9 +29,6 @@
             btnSelectMergeFiles = new Button();
             TO_MAIN_MENU = new Button();
             dgvPdfTools = new DataGridView();
-            FileName = new DataGridViewTextBoxColumn();
-            Order = new DataGridViewTextBoxColumn();
-            FullPath = new DataGridViewTextBoxColumn();
             PDFprogressBar = new ProgressBar();
             btnMergeOrdered = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -105,7 +102,6 @@
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dgvPdfTools.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dgvPdfTools.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvPdfTools.Columns.AddRange(new DataGridViewColumn[] { FileName, Order, FullPath });
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = SystemColors.Window;
             dataGridViewCellStyle2.Font = new Font("Segoe UI", 8.25F);
@@ -129,25 +125,6 @@
             dgvPdfTools.ScrollBars = ScrollBars.Vertical;
             dgvPdfTools.Size = new Size(644, 393);
             dgvPdfTools.TabIndex = 23;
-            // 
-            // FileName
-            // 
-            FileName.HeaderText = "FileName";
-            FileName.Name = "FileName";
-            FileName.Width = 500;
-            // 
-            // Order
-            // 
-            Order.HeaderText = "Order";
-            Order.Name = "Order";
-            Order.Width = 101;
-            // 
-            // FullPath
-            // 
-            FullPath.HeaderText = "FullPath";
-            FullPath.Name = "FullPath";
-            FullPath.Visible = false;
-            FullPath.Width = 101;
             // 
             // PDFprogressBar
             // 
@@ -202,8 +179,5 @@
         private DataGridView dgvPdfTools;
         private ProgressBar PDFprogressBar;
         private Button btnMergeOrdered;
-        private DataGridViewTextBoxColumn FileName;
-        private DataGridViewTextBoxColumn Order;
-        private DataGridViewTextBoxColumn FullPath;
     }
 }
