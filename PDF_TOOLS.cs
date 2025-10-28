@@ -341,9 +341,6 @@ namespace DC_Tools
                         MessageBox.Show(message, "About My Application", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
 
-                    // Fix for CS1912: Only one FileName property should be set per ProcessStartInfo.
-                    // To open multiple URLs, call Process.Start separately for each.
-
                     Process.Start(new ProcessStartInfo
                     {
                         FileName = "https://www.youtube.com/@tedstech2718",
